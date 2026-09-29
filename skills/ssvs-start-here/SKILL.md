@@ -54,9 +54,14 @@ If they want it, walk them through connecting.
 
 ## Connecting (Claude Code)
 
-1. Have the founder open **https://skills.midstage.ac/connect/ssvs** in a
-   browser. They sign in with GitHub, subscribe through Stripe, and get a
-   short code on screen. Ask them to paste the code here.
+1. Ask whether they've already subscribed.
+   - **Already subscribed:** have them open the "Get your connect code" link
+     in their welcome email. It shows a fresh short code each time.
+   - **Not yet:** have them open **https://skills.midstage.ac/connect/ssvs**
+     in a browser. They pay through Stripe and get a short code on screen,
+     plus a welcome email with that same link for later.
+
+   Ask them to paste the code here.
 2. Exchange the code for an access token (run this yourself):
 
    ```bash
@@ -65,7 +70,9 @@ If they want it, walk them through connecting.
    ```
 
    The response holds `access_token`. Codes are single use and expire quickly.
-   If it fails with `code_expired`, send them back to step 1.
+   If it fails with `code_expired`, have them open the welcome-email link for
+   a fresh code. Don't send a subscriber to `/connect/ssvs` again: that
+   starts a new purchase.
 3. Add the MCP server (run this yourself, with the real token):
 
    ```bash

@@ -63,7 +63,7 @@ ssvs/
 ## FAQ
 
 **Does it work in ChatGPT, Claude Desktop or claude.ai?**
-The free skill works anywhere you can paste a `SKILL.md`. The connected kit needs Claude Code for now.
+The free skill works anywhere you can paste a `SKILL.md`. The connected kit works in Claude (web, desktop app or Claude Code) and ChatGPT (Plus or higher): add `https://skills.midstage.ac/mcp` as a custom connector.
 
 **Why aren't the paid skills in this repo?**
 They're served live from Midstage, so every subscriber always runs the current version.
