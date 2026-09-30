@@ -6,7 +6,7 @@ The free `ssvs-start-here` skill works on its own. Connecting adds the full SSVS
 
 ## What you need
 
-- **An AI assistant that supports custom connectors:** Claude (web, desktop app or Claude Code) or ChatGPT (Plus or higher, in developer mode). Add `https://skills.midstage.ac/mcp` as a connector and sign in with your connect code.
+- **Claude:** the web or desktop app, or Claude Code. Add `https://skills.midstage.ac/mcp` as a connector and sign in with your connect code. Support for ChatGPT and other AI assistants is coming soon.
 - **A subscription.** USD 19 a month, paid through Stripe. Your welcome email has a link that gets you a fresh connect code whenever you need one.
 
 ## What we store
